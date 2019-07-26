@@ -1,0 +1,10 @@
+import java.util.Random;
+
+Random rand = new Random();
+
+// Obtain a number between [0 - 1817].
+int n = rand.nextInt(1818);
+
+// Add 1 to the result to get a number from the range between 1 and the year Frankenstein was published
+// (i.e., [1 - 1818]).
+n += 1;
